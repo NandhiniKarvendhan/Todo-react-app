@@ -17,7 +17,7 @@ function App() {
       <TodoList items={items} />
 
       <form onSubmit={handleSubmit}>
-        <label htmlFor="new-todo">Add todo:</label>
+        <label htmlFor="new-todo">Add TODO:</label>
         <input
           id="new-todo"
           placeholder="Add a TODO"
