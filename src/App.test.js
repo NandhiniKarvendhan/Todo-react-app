@@ -10,7 +10,7 @@ test("ToDo", () => {
 
   // after rendering our component
   // Refactoring tests so they closely align with the user experience.
-  expect(getByText("TODO")).not.toBeNull();
-  expect(getByLabelText("Add TODO:")).not.toBeNull();
-  expect(getByText("Add #1")).not.toBeNull();
+  getByText("TODO");
+  getByLabelText("Add TODO:");
+  getByText("Add #1");
 });
