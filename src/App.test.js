@@ -3,13 +3,16 @@ import React from "react";
 import * as ReactDOM from "react-dom";
 import App from "./App";
 
-test("ToDo", () => {
+//test the render functionality for your application
+function render(component) {
   const root = document.createElement("div");
-  ReactDOM.render(<App />, root);
-  const { getByText, getByLabelText } = getQueriesForElement(root);
-
+  ReactDOM.render(component, root);
+  return getQueriesForElement(root);
+}
+test("ToDo", () => {
+  const { getByText, getByLabelText } = render(<App />);
   // after rendering our component
-  // Refactoring tests so they closely align with the user experience.
+
   getByText("TODO");
   getByLabelText("Add TODO:");
   getByText("Add #1");
