@@ -1,5 +1,7 @@
 # todo-react-app
 
+In this app the user can create TODO list.
+
 ## How to run
 
 1. Download or clone this repository.
