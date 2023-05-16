@@ -2,6 +2,10 @@
 
 In this app the user can create TODO list.
 
+## Screenshots
+
+<img src='img/todo_app.png' alt="Todo_app_react"/>
+
 ## How to run
 
 1. Download or clone this repository.
