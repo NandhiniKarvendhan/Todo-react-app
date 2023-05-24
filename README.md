@@ -1,6 +1,6 @@
 # todo-react-app
 
-In this app the user can create TODO list.
+In this app the user can create TODO list using react.
 
 ## Screenshots
 
