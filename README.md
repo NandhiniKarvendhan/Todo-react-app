@@ -1,6 +1,6 @@
 # todo-react-app
 
-In this app the user can create TODO list using react.
+In this app, the user can create a TODO list using react and delete the list entries by clicking them.
 
 ## Screenshots
 
