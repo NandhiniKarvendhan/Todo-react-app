@@ -31,10 +31,18 @@ function App() {
 }
 
 function TodoList(props) {
+  const removeItem = () => {
+    let list = document.getElementById("todoList");
+    list.remove();
+  };
   return (
     <ul>
       {props.items.map((item, i) => (
-        <li key={i}>{item}</li>
+        <>
+          <li key={i} id="todoList" onClick={removeItem}>
+            {item}
+          </li>
+        </>
       ))}
     </ul>
   );
