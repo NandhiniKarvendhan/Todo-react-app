@@ -2,6 +2,8 @@
 
 In this app, the user can create a TODO list using react and delete the list entries by clicking them.
 
+## [DEMO](http://todo-list-reactapp.s3-website.ap-south-1.amazonaws.com/)
+
 ## Screenshots
 
 <img src='img/todo_app.png' alt="Todo_app_react"/>
